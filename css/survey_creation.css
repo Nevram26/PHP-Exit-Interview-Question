@@ -33,7 +33,6 @@ h2, p, a {
     font-family: "CustomFont", sans-serif;
 }
 
-  
   /* Top navbar styling */
   .navbar {
     margin: 0;
@@ -146,41 +145,22 @@ h2, p, a {
   }
   
   .survey-template img,
-.recent-surveys .recent-item img {
-    width: 150px;
-    height: 150px;
+.recent-surveys .recent-item img  {
+    width: 250px;
+    height: 230px;
     object-fit: cover; 
     border-radius: 4px; 
 }
 
-  .survey-template {
-    background-color: white;
-    padding: 20px;
-    width: 150px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-  }
+
 
   .recent-surveys {
-    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
   }
   
-  .recent-surveys .recent-item {
-    background-color: white;
-    padding: 20px;
-    width: 150px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    margin-right: 20px;
-    display: inline-block;
-  }
   
-  .recent-surveys .recent-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    object-fit: cover;
-  }
+  
+
   
